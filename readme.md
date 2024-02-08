@@ -19,13 +19,13 @@ Bluetail Mobile Bar Company brings the craft cocktail experience directly to you
 
 ### Define Environment Variables:
 Inside your .env file, add the following lines, replacing placeholders with your actual values:
-
+```
 NODE_ENV=development 
 PORT=5000 
 MONGO_URI=your_mongodb_connection_string 
 JWT_SECRET=your_strong_jwt_secret 
 REACT_APP_BACKENDAPI=http://localhost:5000 (or API URL if different)
-
+```
 ### Access Variables:
 - **Backend:** In your Node.js/Express.js code, access these variables using process.env.VARIABLE_NAME
 - **Frontend:** Access them in your React components using process.env.REACT_APP_VARIABLE_NAME.
