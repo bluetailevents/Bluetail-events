@@ -34,12 +34,12 @@ REACT_APP_BACKENDAPI=http://localhost:5000 (or API URL if different)
 - **Prerequisites:** Ensure you have Node.js and npm (or yarn) installed.
 - **Clone the repository:** 
 ```
-git clone https://github.com/your-username/bluetail-website.git
+git clone https://github.com/Bluetailevents/bluetail-events.git
 ```
 
 - **Install dependencies:**
 ```
-cd bluetail-website
+cd frontend
 npm install
 ```
 
